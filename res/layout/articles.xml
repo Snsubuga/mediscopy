@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/deepskyblue" >
+    
+	<Button 
+	    android:id="@+id/safedaysarticle"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/safe_days"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+    />
+	<Button 
+	    android:id="@+id/breastcancerarticle"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/breast_cancer"
+        android:textColor="@color/darkorange"
+        android:textStyle="bold"
+        android:layout_below="@+id/safedaysarticle"
+    />
+
+	<Button 
+	    android:id="@+id/dryskinarticle"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dry_skin"
+        android:textColor="@color/deepskyblue"
+        android:textStyle="bold"
+        android:layout_below="@+id/breastcancerarticle"
+    />
+	
+	<Button 
+	    android:id="@+id/hepatitisbarticle"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hepatitis_b"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_below="@+id/dryskinarticle"
+    />
+	
+	<Button 
+	    android:id="@+id/crackedfeetbarticle"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cracked_feet"
+        android:textColor="@color/darkorange"
+        android:textStyle="bold"
+        android:layout_below="@+id/hepatitisbarticle"
+    />
+	
+	<Button 
+	    android:id="@+id/mediscopywebsite"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mediscopy_site"
+        android:textColor="@color/deepskyblue"
+        android:textStyle="bold"
+        android:layout_below="@+id/crackedfeetbarticle"
+    />
+	
+	<Button 
+	    android:id="@+id/back"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/back_to_main"
+	    android:textStyle="bold"
+	    android:layout_alignParentBottom="true"
+	    
+    />
+	
+	<Button 
+	    android:id="@+id/disclaimerBtn"
+	    android:text="@string/disclaimer"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textStyle="bold"
+	    android:layout_below="@+id/mediscopywebsite"
+	/>
+</RelativeLayout>

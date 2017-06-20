@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mediscopy Health Calculator</string>
+    <string name="bmi_text">Calculate Your Body Mass Index (BMI)</string>
+    <string name="edd_text">Estimate Expected Delivery Date</string>
+    <string name="pregAge_text">Estimate Age of Pregnancy</string>
+    <string name="back_to_main">Back to Main Menu</string>
+    <string name="back_to_activity">Back</string>
+    <string name="enter_lnmp">Enter the first day of your last normal menstrual period</string>
+    <string name="enter_weight_text">Enter your Weight in Kilos</string>
+    <string name="enter_height_text">Enter your Height in Metres</string>
+    <string name="view_pic">View Picture</string>
+    <string name="example">Illustration</string>
+    <string name="copyright">© 2012 Mediscopy</string>
+    <string name="safe_days_example">SARAH HAS BEEN CHARTING HER MENSTRUAL CYCLE FOR THE LAST SIX MONTHS AND THESE ARE THE NUMBER OF DAYS FROM THE FIRST DAY OF BLEEDING OF ONE MONTH TO THE FIRST DAY OF BLEEDING OF THE NEXT MONTH:29, 30, 28, 29, 31, 29, 30.\n\n
+        Shortest Period is 28 days. The earliest day of her fertile period is  28-18 = 10\n
+The longest period is 31 days. The latest day of her fertile period is 31-11 = 20\n\n
+This implies that from day 10 to day 20 of her period is a fertile period and sex should be avoided to prevent pregnancy.\n
+In a practical sense, if Sarah began her menses 5th of October; 10 days from which will be 15th October.  20 days from which will be 25th of October.</string>
+    <string name="articles">Learn More</string>
+    <string name="articles_text">Learn More © 2012 Mediscopy</string>
+    <string name="safe_days">Calculate your safe days</string>
+    <string name="breast_cancer">What causes Breast Cancer?</string>
+    <string name="lower_back_pain">Tips for preventing lower back pain</string>
+    <string name="dry_skin">6 Ways Out of a Dry Skin</string>
+    <string name="hepatitis_b">Hepatitis B: More Deadly than HIV</string>
+    <string name="cracked_feet">Prevent Cracked Feet</string>
+    <string name="mediscopy_site">More articles on the Mediscopy Website</string>
+    <string name="vasectomy">Before you go for a vasectomy</string>
+    <string name="lactose_intolerance">Lactose Intolerance</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_text">About Us © 2012 Mediscopy</string>
+    <string name="safedays_helptext">For more accurate results, you should have data for your last 6 cycles from which you will then choose the shortest cycle and the longest cycle</string>
+    <string name="calculate">Calculate</string>
+    <string name="shortest_cycle">Shortest Cycle (days)</string>
+    <string name="longest_cycle">Longest Cycle (days)</string>
+    <string name="picture_source">Picture from babycentre.com</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer_text">The figures and numbers given here are estimates, and do not replace your doctor’s prescription or recommendations. Your doctor should be consulted on any health concerns and do not rely entirely on this Internet resource</string>
+    <string name="vision">Vision</string>
+    <string name="vision_text">To become the leading healthcare solutions developer and provider in Africa.</string>
+    <string name="mission">Mission</string>
+    <string name="mission_text">To impact humanity through the provision of and advocacy for quality healthcare,  health research and publication.</string>
+    <string name="values">Values</string>
+    <string name="values_text">TIMELINESS:\n We commit to deliver our all and our best when it is needed, knowing that delay may be the line between illness and wellness.\n
+INTEGRITY:\n We are honest, truthful and reliable. Committing to what we shall surely achieve dispensing with all else.\n
+INNOVATIVENESS:\n We seek the obvious and more. We create uniqueness in commonplace and generate that difference out of the normal.\n
+QUALITY:\n We stop at nothing less than the best. Every one deserves the best and we decide to spare no skill, talent, knowledge or resource to provide that.</string>
+	<string name="contact_us">Our contacts:\nP O Box 4210 Kampala, Uganda\nWebsite:  www.mediscopyug.com\nEmail: info@mediscopyug.com\nTel: +256792872371  , +256781449118 , +256705208280</string>
+</resources>

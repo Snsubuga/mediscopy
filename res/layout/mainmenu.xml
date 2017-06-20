@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/db1_root"
+    android:orientation="vertical"
+    android:background="@color/skyblue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:padding="6dip">"
+    <ImageView
+    android:id="@+id/image"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:src="@drawable/mediscopy"
+    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/bmi"
+            android:onClick="onClickFeature"
+            android:text="@string/bmi_text"
+            style="@style/HomeButton"
+            android:drawableTop="@drawable/bmi"/>
+        <Button android:id="@+id/pregage"
+            android:onClick="onClickFeature"
+            android:text="@string/pregAge_text"
+            style="@style/HomeButton"
+            android:drawableTop="@drawable/pregage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/edd"
+            android:onClick="onClickFeature"
+            android:text="@string/edd_text"
+            style="@style/HomeButton"
+            android:drawableTop="@drawable/edd"/>
+        <Button android:id="@+id/about"
+            android:onClick="onClickFeature"
+            android:text="@string/about_us"
+            style="@style/HomeButton"
+            android:drawableTop="@drawable/about_us"/>
+    </LinearLayout>
+    
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/safedays"
+            android:onClick="onClickFeature"
+            android:text="@string/safe_days"
+            style="@style/HomeButton"
+            android:drawableTop="@drawable/safedays"/>
+        <Button android:id="@+id/articles"
+            android:onClick="onClickFeature"
+            android:text="@string/articles"
+            style="@style/HomeButton"
+            android:drawableTop="@drawable/articles"/>
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/deepskyblue"
+    >
+    
+    <TextView
+    android:id="@+id/displayDate" 
+    android:textColor="@color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    />
+    
+	<Button android:id="@+id/pickDate"
+	    android:layout_below="@+id/displayDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+    />
+	
+	<TextView
+    android:id="@+id/estimatedDeliveryDate"
+    android:layout_below="@+id/pickDate" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25sp"
+    android:textColor="@color/white"
+    />
+	<Button android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/back_to_activity"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+    />
+	<Button android:id="@+id/picButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/backButton"
+        android:text="@string/view_pic"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+    />
+	<Button android:id="@+id/disclaimerBtn"
+	    android:text="@string/disclaimer"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/picButton"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+    />
+</RelativeLayout>

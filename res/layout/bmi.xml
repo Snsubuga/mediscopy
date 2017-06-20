@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/deepskyblue"
+  >
+
+
+   <EditText android:id="@+id/enter_weight"
+              android:inputType="phone"
+              android:hint="@string/enter_weight_text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_margin="1dip"
+              android:textColor="@color/darkorange"
+              />
+
+   <EditText android:id="@+id/enter_height"
+              android:inputType="phone"
+              android:hint="@string/enter_height_text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/enter_weight"
+              android:layout_alignParentRight="true"
+              android:layout_margin="1dip"
+              android:textColor="@color/darkorange"
+              />
+
+    <Button android:id="@+id/calculate"
+        android:textColor="@color/black"
+            android:layout_below="@+id/enter_height"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            />
+            
+    <TextView android:id="@+id/bmi_result"
+            android:text=""
+            android:layout_below="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+            
+            <TextView android:id="@+id/bmi_interprete"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_alignParentLeft="true"
+            android:layout_above="@+id/back"
+            android:textSize="17sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            />
+            
+    <Button android:id="@+id/back"
+        	android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            />
+    <Button android:id="@+id/disclaimerBtn"
+        	android:text="@string/disclaimer"
+        	android:textColor="@color/black"
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/back"
+            android:textStyle="bold"/>
+</RelativeLayout>

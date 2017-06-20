@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.mediscopy.client"
+      android:versionCode="2012102200"
+      android:versionName="1.2.2">
+    <uses-sdk android:minSdkVersion="4" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application android:icon="@drawable/mediscopy" android:label="@string/app_name">
+        <activity android:name=".MainMenuActivity"
+                  android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BodyMassIndexActivity" android:label="@string/bmi_text" android:screenOrientation="portrait"/>
+		<activity android:name=".EstimatedDeliveryDateActivity" android:label="@string/edd_text" android:screenOrientation="portrait"/>
+		<activity android:name=".EstimateAgeOfPregnancyActivity" android:label="@string/pregAge_text" android:screenOrientation="portrait"/>
+		<activity android:name=".ViewPictureActivity" android:label="@string/view_pic" android:screenOrientation="portrait"/>
+		<activity android:name=".AboutUsActivity" android:label="@string/about_us_text" android:screenOrientation="portrait"/>
+		<activity android:name=".ArticlesActivity" android:label="@string/articles_text" android:screenOrientation="portrait"/>
+		<activity android:name=".SingleArticleViewActivity" android:label="@string/articles_text" android:screenOrientation="portrait"/>
+		<activity android:name=".SafeDaysCalculatorActivity" android:label="@string/safe_days" android:screenOrientation="portrait"/>
+		<activity android:name=".DisclaimerActivity" android:label="@string/disclaimer" android:screenOrientation="portrait"/>
+		<activity android:name=".SafeDaysExampleActivity" android:label="@string/example" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

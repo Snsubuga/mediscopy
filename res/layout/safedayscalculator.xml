@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/deepskyblue" >
+    
+    <TextView 
+        android:id="@+id/helptext"
+        android:text="@string/safedays_helptext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <EditText 
+        android:id="@+id/enter_short"
+        android:hint="@string/shortest_cycle"
+        android:layout_below="@+id/helptext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <EditText 
+        android:id="@+id/enter_long"
+        android:hint="@string/longest_cycle"
+        android:layout_below="@+id/enter_short"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <Button 
+        android:id="@+id/calculate"
+        android:text="@string/safe_days"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/enter_long"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView 
+        android:id="@+id/safe_days"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculate"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <Button 
+        android:id="@+id/back"
+        android:text="@string/back_to_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <Button 
+        android:id="@+id/example"
+        android:text="@string/example"
+        android:layout_toRightOf="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <Button 
+        android:id="@+id/disclaimerBtn"
+        android:text="@string/disclaimer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/example"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    
+</RelativeLayout>

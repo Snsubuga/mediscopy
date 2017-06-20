@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:background="@color/deepskyblue" >
+	    
+	    <TextView android:id="@+id/introtext"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:text="@string/picture_source"
+		    android:textColor="@color/white"
+		    android:textStyle="bold"
+	    />
+	    <ImageView 
+		   android:id="@+id/test_image"
+		   android:src="@drawable/about_us"
+		   android:layout_width="fill_parent"
+		   android:layout_height="fill_parent"
+		   android:layout_below="@+id/introtext"
+		   android:scaleType="matrix"
+		   android:adjustViewBounds="true"
+		   android:contentDescription="@string/app_name"
+	   	/>
+		<TextView android:id="@+id/text"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/picture_source"
+		    android:layout_above="@+id/back_button"
+		    android:textColor="@color/white"
+		    android:textStyle="bold"
+	    />
+		<Button android:id="@+id/back_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/back_to_main"
+		    android:textColor="@color/black"
+		    android:textStyle="bold"
+		    android:layout_alignParentBottom="true"
+		/>
+		<Button android:id="@+id/disclaimerBtn"
+		    android:text="@string/disclaimer"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@+id/back_button"
+		    android:textColor="@color/black"
+		    android:textStyle="bold"
+		    android:layout_alignParentBottom="true"
+		/>
+	</RelativeLayout>
